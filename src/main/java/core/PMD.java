@@ -19,15 +19,15 @@ public class PMD {
 
     // BigIntegerInstantiation
     public void BigInteger() {
-        BigInteger bi1 = new BigInteger("1"); 	// reference BigInteger.ONE
+       // BigInteger bi1 = new BigInteger("1"); 	// reference BigInteger.ONE
         // instead
-        BigInteger bi2 = new BigInteger("0"); 	// reference BigInteger.ZERO
+     //   BigInteger bi2 = new BigInteger("0"); 	// reference BigInteger.ZERO
         // instead
         BigInteger bi3 = new BigInteger("0.0"); // reference BigInteger.ZERO
         // instead
         BigInteger bi4;
-        bi4 = new BigInteger("0"); 				// reference BigInteger.ZERO instead
-        System.out.println(bi1 + ", " + bi2 + ", " + bi3 + ", " + bi4);
+       // bi4 = new BigInteger("0"); 				// reference BigInteger.ZERO instead
+        System.out.println( bi3 );
     }
 
 
@@ -66,14 +66,14 @@ public class PMD {
     }
 
     // UnconditionalIfStatement
-    public class Foo2 {
-        public void close() {
-            if (true) { // fixed conditional, not recommended
-
-            }
-        }
-    }
-
+//    public class Foo2 {
+//        public void close() {
+//            if (true) { // fixed conditional, not recommended
+//
+//            }
+//        }
+//    }
+//
 
 
     // ShortVariable
