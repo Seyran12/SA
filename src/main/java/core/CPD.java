@@ -1,6 +1,6 @@
 package core;
 
-import java.math.BigInteger;
+//import java.math.BigInteger;
 
 public class CPD {
 
@@ -11,7 +11,7 @@ public class CPD {
             int value = 0;
             int i = 0;
             String s = null;
-            value += (s.replaceAll("\\s", "").toLowerCase().charAt(i));
+      //      value += (s.replaceAll("\\s", "").toLowerCase().charAt(i));
 
         }
     }
@@ -34,9 +34,9 @@ public class CPD {
     public class JumbledIncrementerRule1 {
         public void foo() {
             for (int i = 0; i < 10; i++) { // only references 'i'
-                for (int k = 0; k < 20; i++) { // references both 'i' and 'k'
-                    System.out.println("Hello");
-                }
+//                for (int k = 0; k < 20; i++) { // references both 'i' and 'k'
+//                    System.out.println("Hello");
+//                }
             }
         }
     }
@@ -45,8 +45,8 @@ public class CPD {
 
     public class Foo {
         void bar() {
-            for (; true;)
-                ; // No Initialization or Update part, may as well be: while
+//            for (; true;)
+//                ; // No Initialization or Update part, may as well be: while
             // (true)
         }
     }
