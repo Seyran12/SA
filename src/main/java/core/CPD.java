@@ -8,9 +8,9 @@ public class CPD {
     // Useless parentheses
     public class UselessParentheses {
         void bar() {
-            int value = 0;
-            int i = 0;
-            String s = null;
+  //          int value = 0;
+ //           int i = 0;
+  //          String s = null;
       //      value += (s.replaceAll("\\s", "").toLowerCase().charAt(i));
 
         }
