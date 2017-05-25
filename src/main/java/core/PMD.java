@@ -25,7 +25,7 @@ public class PMD {
         // instead
         BigInteger bi3 = new BigInteger("0.0"); // reference BigInteger.ZERO
         // instead
-        BigInteger bi4;
+     //   BigInteger bi4;
        // bi4 = new BigInteger("0"); 				// reference BigInteger.ZERO instead
         System.out.println( bi3 );
     }
