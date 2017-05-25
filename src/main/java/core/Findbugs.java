@@ -18,11 +18,11 @@ public class Findbugs {
         return "my-sec" + "ret-password";
     }
 
-    static void abc() {
-        int x = 2;
-        int y = 5;
-        double value1 =  x / y;
-
-    }
+//    static void abc() {
+//        int x = 2;
+//        int y = 5;
+//        double value1 =  x / y;
+//
+//    }
 
 }
