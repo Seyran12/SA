@@ -9,9 +9,9 @@ public class PMD {
     // Useless parentheses
     public class UselessParentheses {
         void bar() {
-            int value = 0;
-            int i = 0;
-            String s = null;
+    //        int value = 0;
+       //     int i = 0;
+        //    String s = null;
             //      value += (s.replaceAll("\\s", "").toLowerCase().charAt(i));
 
         }
@@ -47,7 +47,7 @@ public class PMD {
     public class Foo {
         void bar() {
             //          for (; true;)
-            ; // No Initialization or Update part, may as well be: while
+          //  ; // No Initialization or Update part, may as well be: while
             // (true)
         }
     }
