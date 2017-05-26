@@ -1,8 +1,8 @@
-package core;
+//package core;
 
 
 // http://checkstyle.sourceforge.net/
-public class Checkstyle {
+//public class Checkstyle {
 
     // LineLengthCheck
 //    void MethodNameMethodNameMethodName()
@@ -11,4 +11,4 @@ public class Checkstyle {
 //                "The classroom is anagram? - true");
 //    }
 
-}
+//}
