@@ -1,4 +1,6 @@
 package core;
+
+
 // http://checkstyle.sourceforge.net/
 public class Checkstyle {
 
